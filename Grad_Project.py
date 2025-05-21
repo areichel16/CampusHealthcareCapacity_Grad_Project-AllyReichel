@@ -223,28 +223,28 @@ if submit_button == True:
         result.append("OTC Medicine Vending Machines")
 
     if q3 >= 0.2 and q3_1 == ('Providers Only' or 'Both'):
-        result.append("Nurse-led Appointments for Primary Health Services")
+        result.append("Nurse-Led Appointments for Primary Health Services")
 
     if q4 >= 0.2 and q4_1 == ('Providers Only' or 'Both'):
-        result.append("Nurse-led Appointments for Sexual and Reproductive Health Servicess")
+        result.append("Nurse-Led Appointments for Sexual and Reproductive Health Services")
 
     if q5 >= 0.2 and q5_1 == ('Providers Only' or 'Both'):
-        result.append("Nurse-led Appointments for Illness Care Services")
+        result.append("Nurse-Led Appointments for Illness Care Services")
 
     if q6 >= 0.2 and q6_1 == ('Providers Only' or 'Both'):
-        result.append("Nurse-led Appointments for Minor Injury Services")
+        result.append("Nurse-Ked Appointments for Minor Injury Services")
 
     if q7 >= 0.2 and q7_1 == ('Providers Only' or 'Both'):
-        result.append("Nurse-led Appointments for Vaccination Services")
+        result.append("Nurse-Led Appointments for Vaccination Services")
 
     if q8 >= 0.2 and q8_1 == ('Providers Only' or 'Both'):
-        result.append("Nurse-led Appointments for Post-Exposure Services")
+        result.append("Nurse-Led Appointments for Post-Exposure Services")
 
     if q9 >= 0.2 and q9_1 == ('Providers Only' or 'Both'):
-        result.append("Nurse-led Appointments for Allergy Management Services")
+        result.append("Nurse-Led Appointments for Allergy Management Services")
 
     if q10 >= 0.2 and q10_1 == ('Providers Only' or 'Both'):
-        result.append("Nurse-led Appointments for Follow-Up Care Services")
+        result.append("Nurse-Led Appointments for Follow-Up Care Services")
  
     if q11 == "Yes":
         if q7 >= .1 and q12 == 'Health Center (Appointments/Walk-In)':
@@ -254,7 +254,7 @@ if submit_button == True:
             result.append("COVID-19 Vaccination/Booster Shot Pop-Up Clinics")
 
         if q7 >= .1 and q14 == 'Health Center (Appointments/Walk-In)':
-            result.append("Routine Immunization (MMR, tetanus, etc.) Pop-Up Clinics")
+            result.append("Routine Immunizations (MMR, tetanus, etc.) Pop-Up Clinics")
 
         if q9 >= .1 and q15 == 'Health Center (Appointments/Walk-In)':
             result.append("Seasonal Allergy Management Pop-Up Clinics")
@@ -287,7 +287,7 @@ if submit_button == True:
         result.append("Telehealth Appointments for Prescription Refills")
 
     if q23_3 == ("In-Person"):
-        result.append("Telehealth Appointments for Follow-up Care")
+        result.append("Telehealth Appointments for Follow-Up Care")
 
     st.sidebar.success("✅ Data submitted successfully!")
 
